@@ -1,0 +1,164 @@
+.lunbo{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url(../img/6.jpg) no-repeat center;
+}
+.lunbo hgroup{
+	position: absolute;
+	width: 600px;
+	height: 80px;
+	font-size: 30px;
+	color: #fff;
+	top: 0;
+	bottom: 0;
+	margin: auto 100px;
+}
+
+
+#content{
+	position: relative;
+	width: 1280px;
+	height: 1090px;
+	margin: 80px auto;
+}
+#content .conleft{
+	position: relative;
+	width: 920px;
+	height: 1090px;
+	float: left;
+}
+#content .conleft .but{
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	right: 0;
+	left: 0;
+	margin:  auto;
+	bottom: 10px;
+}
+#content .conleft h2{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	font-size: 35px;
+	display: block;
+	border-bottom: 1px dashed #999;
+}
+#content .conleft figure{
+	width: 445px;
+	height: 320px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+#content .conleft figure figcaption{
+	text-align: center;
+}
+#content .conleft figure img{
+	padding: 5px;
+}
+
+
+
+
+
+#content .conright{
+	position: relative;
+	width: 350px;
+	height: 1070px;
+	float: right;
+}
+
+#content .conright .hotview{
+	position: relative;
+	width: 100%;
+	height: 340px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+#content .conright .hotview h2,#content .conright .hottrave h2,#content .conright .hotbox h2{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	text-indent: 10px;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+}
+#content .conright .hotview ul{
+	position: relative;
+	list-style: none;
+	width: 98%;
+	height: auto;
+	display: block;
+	background: red;
+	margin: 5px auto;
+}
+#content .conright .hotview li{
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	color: #999;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background: #ddd;
+	float: left;
+}
+#content .conright .hotview li:hover{
+	background: #03de41;
+	color: #fff;
+}
+#content .conright .hottrave,#content .conright .hotbox {
+	position: relative;
+	width: 100%;
+	height: 520px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+#content .conright .hottrave figure{
+	position: relative;
+	width: 165px;
+	height: 145px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#content .conright .hottrave figure p{
+	position: relative;
+	text-align: center;
+	color: #999;
+}
+#content .conright .hotbox{
+	height: 160px;
+}
+#content .conright .hotbox ul{
+	position: relative;
+	list-style: none;
+	width: 98%;
+	height: auto;
+	display: block;
+	background: red;
+	margin: 5px auto;
+}
+#content .conright .hotbox li{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: #999;
+	text-indent: 10px;
+	line-height: 40px;
+	margin-left: 15px;
+	margin-top: 10px;
+	background: #ddd ;
+	float: left;
+}
+
